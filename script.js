@@ -4,7 +4,7 @@ let sport = prompt("Какой ваш любимый вид спорта?")
 
 let age
 
-if (1900 <= birthday || birthday > 2022) {
+if (1900 <= birthday && birthday > 2022) {
     age = 2022 - birthday
 }   else {
     alert ("Жаль, что Вы не захотели ввести свой год Рождения")
